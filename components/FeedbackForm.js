@@ -24,7 +24,7 @@ export default function FeedbackForm() {
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
         <label htmlFor="affadavid">Add affadavid:</label>
-        <input name="affadavid" className={styles['form-field']} type="file" required/>
+        <input name="affadavid" className={styles['form-field']} type="file" accept=".pdf,image/*" required/>
 
         <button className={styles.button} type="submit">Submit</button>
       </form>
