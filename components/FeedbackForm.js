@@ -23,8 +23,9 @@ export default function FeedbackForm() {
         <label htmlFor="email">Email</label>
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
-        <label htmlFor="feedback">What is your feedback?</label>
-        <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
+        <label htmlFor="affadavid">Add affadavid:</label>
+        <input name="affadavid" className={styles['form-field']} type="file" required/>
+
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )
